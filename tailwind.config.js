@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx,mdx}", // Note the addition of the `app` directory.
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    './app/**/*.{js,ts,jsx,tsx,mdx}', // Note the addition of the `app` directory.
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   mode: "jit",
   theme: {
@@ -25,14 +25,11 @@ module.exports = {
         grey: "#747A88",
       },
       backgroundImage: {
-        pattern: "url('/pattern.png')",
-        "hero-bg": "url('/hero-bg.png')",
-      },
-    },
-    screens: {
-      mobile: "376px",
-      // => @media (min-width: 376px) { ... }
+        'pattern': "url('/pattern.png')",
+        'hero-bg': "url('/hero-bg.png')"
+      }
     },
   },
   plugins: [],
-};
+}
+
